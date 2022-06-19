@@ -7,23 +7,31 @@ export default function Navbar(){
                 <div className="mx-14">
                     <img className="h-40" src="/logo.png"/>
                 </div>
+                <Link href="/">
                 <div className="mx-2 rounded-lg cursor-pointer hover:text-white hover:bg-blue-900 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
                     <h1>Home</h1>
                 </div>
+                </Link>
                 <Link href="/WhoWeAre">
                 <div className="mx-2 cursor-pointer rounded-lg hover:text-white hover:bg-blue-900 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
                     <h1>Who we are</h1>
                 </div>
                 </Link>
+                <Link href="/WhatWeDo">
                 <div className="mx-2 cursor-pointer rounded-lg hover:text-white hover:bg-blue-900 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
                     <h1>What we do</h1>
                 </div>
+                </Link>
+                <Link href="/Products">
                 <div className=" mx-2 cursor-pointer rounded-lg hover:text-white hover:bg-blue-900 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
                     <h1>Products</h1>
                 </div>
+                </Link>
+                <Link href="/WorkWithUs">
                 <div className="mx-2 cursor-pointer rounded-lg hover:text-white hover:bg-blue-900 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
                     <h1>Work with us</h1>
                 </div>
+                </Link>
                 <Link href="/Contact">
                 <div className="mx-10 cursor-pointer rounded-lg border-2 uppercase border-sky-300 bg-blue-600 rounded-lg px-8 py-2 text-slate-100 hover:bg-blue-900 transition delay-75">
                     <h1>Contact us</h1>

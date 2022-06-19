@@ -51,7 +51,7 @@ export default function Contact(){
                        <textarea className="mr-6 bg-gray-200 pt-4 pb-20 appearance-none border-2 border-gray-200 rounded w-full px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Write a message"/>
                     </div>
                     <div className="mt-4">
-                        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg">
+                        <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg">
                             Send a message
                         </button>
                     </div>
