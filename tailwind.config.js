@@ -50,6 +50,7 @@ module.exports = {
       backgroundImage: {
         'back': "url('/back.png')",
         'header': "url('/header1.png')",
+        'home': "url('/home.png')",
       }
     },
   },

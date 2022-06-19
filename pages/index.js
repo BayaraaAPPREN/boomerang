@@ -1,7 +1,10 @@
 import Head from 'next/head'
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import DedNav from '../components/Navbar/dednav'
 import Section from "../components/Section/index"
+import Team from '../components/Team'
+import WhatWe from '../components/WhatWe'
 
 export default function Home() {
   return (
@@ -15,6 +18,9 @@ export default function Home() {
         <DedNav/>
         <Navbar/>
         <Section/>
+        <WhatWe/>
+        <Team/>
+        <Footer/>
        </div>
     </div>
   )
