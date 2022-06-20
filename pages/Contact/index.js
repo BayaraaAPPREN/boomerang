@@ -27,7 +27,7 @@ export default function Contact(){
                             </div>
                             <div className="mx-8 text-xl text-blue-900">
                                <h1 className="text-medium">(+976) 77307733</h1>
-                               <h1 className="text-medium">info@jjjj.com</h1>
+                               <h1 className="text-medium">info@boomerang.mn</h1>
                             </div>
                         </div>
                         <div className="text-lg text-slate-600 font-medium mt-8">

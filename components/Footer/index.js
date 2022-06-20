@@ -40,7 +40,7 @@ export default function Footer(){
                                     <h2>Location : 1-504, Gegeenten complex, 15th subdistrict,</h2>
                                     <h2>Khan-Uul district, Ulaanbaatar, Mongolia</h2>
                                     <h2>Phone number : (+976) 77307733</h2>
-                                    <h2>Email : info@jjjj.com</h2>
+                                    <h2>Email : info@boomerang.mn</h2>
                                 </div>
                             </div>
                         </div>
