@@ -10,7 +10,7 @@ export default function Contact(){
         <title>Boomerang</title>
         <meta name="description" content="Boomerang.mn" />
         <meta property='og:title' content='Boomerang.mn'/>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
             <DedNav/>
             <Navbar/>

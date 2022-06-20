@@ -13,7 +13,7 @@ export default function Home() {
         <title>Boomerang</title>
         <meta name="description" content="Boomerang.mn" />
         <meta property='og:title' content='Boomerang.mn'/>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
        <div className=''>
         <DedNav/>

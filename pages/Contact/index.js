@@ -9,7 +9,7 @@ export default function Contact(){
         <title>Boomerang</title>
         <meta name="boomerang.mn" ccontent="initial-scale=1.0, width=device-width" />
         <meta property='og:title' content='Boomerang.mn'/>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
             <DedNav/>
             <Navbar/>
