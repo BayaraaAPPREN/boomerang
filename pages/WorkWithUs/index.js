@@ -1,10 +1,17 @@
 import Footer from "../../components/Footer"
 import DedNav from "../../components/Navbar/dednav" 
 import Navbar from "../../components/Navbar/index"
+import Head from 'next/head'
 import Team from "../../components/Team"
 export default function WorkWithUs(){
     return(
         <div>
+            <Head>
+                <title>Boomerang</title>
+                <meta name="description" content="Boomerang.mn" />
+                <meta property='og:title' content='Boomerang.mn'/>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <DedNav/>
             <Navbar/>
             <div className="bg-header bg-cover bg-center">

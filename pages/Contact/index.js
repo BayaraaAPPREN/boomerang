@@ -1,9 +1,16 @@
 import Footer from "../../components/Footer"
 import DedNav from "../../components/Navbar/dednav" 
 import Navbar from "../../components/Navbar/index"
+import Head from "next/head"
 export default function Contact(){
     return(
         <div>
+            <Head>
+        <title>Boomerang</title>
+        <meta name="boomerang.mn" ccontent="initial-scale=1.0, width=device-width" />
+        <meta property='og:title' content='Boomerang.mn'/>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
             <DedNav/>
             <Navbar/>
             <div className="bg-header bg-cover bg-center">

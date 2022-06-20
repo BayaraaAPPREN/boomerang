@@ -3,9 +3,16 @@ import DedNav from "../../components/Navbar/dednav"
 import Navbar from "../../components/Navbar/index"
 import Team from "../../components/Team"
 import WhatWe from "../../components/WhatWe"
+import Head from 'next/head'
 export default function WhatWeDo(){
     return(
         <div>
+            <Head>
+        <title>Boomerang</title>
+        <meta name="description" content="Boomerang.mn" />
+        <meta property='og:title' content='Boomerang.mn'/>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
             <DedNav/>
             <Navbar/>
             <div className="bg-header bg-cover bg-center">
