@@ -1,6 +1,5 @@
 import Footer from "../../components/Footer"
-import DedNav from "../../components/Navbar/dednav" 
-import Navbar from "../../components/Navbar/index"
+import Navbar from "../../components/Navbar/dednav"
 import Team from "../../components/Team"
 import WhatWe from "../../components/WhatWe"
 import Head from 'next/head'
@@ -13,7 +12,6 @@ export default function WhatWeDo(){
         <meta property='og:title' content='Boomerang.mn'/>
         <link rel="icon" href="/logo.png" />
       </Head>
-            <DedNav/>
             <Navbar/>
             <div className="bg-header bg-cover bg-center">
                 <div className="py-24 mx-40 ">

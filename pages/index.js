@@ -4,7 +4,8 @@ import Navbar from '../components/Navbar'
 import DedNav from '../components/Navbar/dednav'
 import Section from "../components/Section/index"
 import Team from '../components/Team'
-import WhatWe from '../components/WhatWe'
+import Video from '../components/Video'
+import WhatWe from '../components/WhatWe/nuur'
 
 export default function Home() {
   return (
@@ -16,9 +17,10 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
        <div className=''>
-        <DedNav/>
+        {/* <DedNav/> */}
         <Navbar/>
         <Section/>
+        <Video/>
         <WhatWe/>
         <Team/>
         <Footer/>

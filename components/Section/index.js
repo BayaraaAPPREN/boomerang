@@ -2,11 +2,9 @@
 
 export default function Section(){
     return(
-        <div >
-          <div className="bg-home bg-cover bg-center py-60 ">
-            <h1 className="text-7xl hover:text-blue-900 text-center">WELCOME TO</h1>
-             <h1 className="text-center text-3xl text-blue-900 ">BOOMERANG.MN</h1>
-          </div>
+        <div className="w-screen">
+          <video className="w-full absolute top-0 left-0 h-full object-cover opacity-80" src="/boomerang.mp4" muted loop autoPlay></video>
+          <div className="overlay absolute top-0 left-0 w-full h-full bg-overlay blend-screen"></div>
         </div>
     )
 }

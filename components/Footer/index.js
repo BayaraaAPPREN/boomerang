@@ -6,14 +6,14 @@ export default function Footer(){
             <div className="flex flex-wrap justify-center py-20 bg-blue-900 text-slate-300">
                 <div className="">
                         <div className="flex flex-wrap">
-                            <img className="ml-4 h-40" src="/logo.png"/>
+                            <img className="ml-4 h-40" src="/logowhite.png"/>
                             <div>
                                <h1 className="mx-8 text-4xl">BOOMERANG</h1>
                                <div className="mt-4 flex">
-                                  <a href="https://www.facebook.com/skinlaundrymn">
+                                  <a>
                                     <img className="h-10 ml-10" src="/fb.png"/>
                                   </a>
-                                  <a href="https://www.instagram.com/minadermatologist/">
+                                  <a>
                                      <img className="h-10  mx-4" src="/instag.png"/>
                                   </a>
                                </div>

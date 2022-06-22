@@ -51,6 +51,7 @@ module.exports = {
         'back': "url('/back.png')",
         'header': "url('/header1.png')",
         'home': "url('/home.png')",
+        'video': "url('/boomerang.mp4')"
       }
     },
   },
