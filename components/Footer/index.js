@@ -48,7 +48,7 @@ export default function Footer(){
             </div>
             <div className="w-full bg-blue-600">
                 <div className="py-8 text-center">
-                    <h1 className="xs:text-xs md:text-2xl text-white">All rights reserved. 2022 year. BOOMERANG.MN</h1>
+                    <h1 className="xs:text-xs md:text-lg text-white">All rights reserved. 2022 year. BOOMERANG.MN</h1>
                 </div>
             </div>
         </div>

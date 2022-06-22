@@ -2,7 +2,7 @@ import Footer from "../Footer";
 
 export default function Nuur(){
     return(
-        <div className="mt-96">
+        <div className="lg:mt-60 xl:mt-96">
              <div className="mx-20 my-20 ">
               <div className="flex flex-wrap justify-center">
                 <div className="mx-10">
