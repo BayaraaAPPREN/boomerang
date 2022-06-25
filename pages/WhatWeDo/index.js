@@ -14,9 +14,9 @@ export default function WhatWeDo(){
       </Head>
             <Navbar/>
             <div className="bg-header bg-cover bg-center">
-                <div className="py-24 mx-40 ">
+                <div className="py-24  md:mx-40 grid justify-center">
                     <h1 className="text-xl text-black font-bold uppercase font-Gothic">Home / what we do</h1>
-                    <h1 className="text-7xl text-blue-900  font-ExtraBold ">What We Do</h1>
+                    <h1 className="md:text-7xl text-blue-900  font-ExtraBold ">What We Do</h1>
                 </div>
             </div>
             <WhatWe/>

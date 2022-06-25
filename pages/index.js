@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import DedNav from '../components/Navbar/dednav'
 import Section from "../components/Section/index"
 import Team from '../components/Team'
 import Video from '../components/Video'
@@ -17,7 +16,6 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
        <div className=''>
-        {/* <DedNav/> */}
         <Navbar/>
         <Section/>
         <Video/>

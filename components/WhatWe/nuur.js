@@ -2,7 +2,7 @@ import Footer from "../Footer";
 
 export default function Nuur(){
     return(
-        <div className="lg:mt-60 xl:mt-96">
+        <div className="lg:mt-60 xl:mt-96 xs:mt-96">
              <div className="mx-20 my-20 ">
               <div className="flex flex-wrap justify-center">
                 <div className="mx-10">
@@ -44,7 +44,7 @@ export default function Nuur(){
               </div>
               <div className="my-20 ">
                 <div className="flex flex-wrap justify-center">
-                    <div className="mx-10">
+                    <div className="xs:mb-8 md:mx-10">
                         <img className="" src="/image10.png"/>
                     </div>
                     <div className="mx-20">
@@ -77,12 +77,12 @@ export default function Nuur(){
                           New Trends In Social Media </h1>  
                         </div>
                     </div>
-                    <div className="mx-10">
+                    <div className="xs:mb-2 xs:mt-4 md:mx-10">
                         <img src="/image11.png"/>
                     </div>
                 </div>
                 <div className="flex flex-wrap mt-10 justify-center">
-                    <div className="mx-10">
+                    <div className="xs:mb-8 md:mx-10">
                         <img className="" src="/image12.png"/>
                     </div>
                     <div className="mx-20">
