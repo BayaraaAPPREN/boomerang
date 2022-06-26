@@ -73,7 +73,7 @@ export default function Products(){
                         <div className="flex">
                             <div className="mx-8 my-8">
                                 <h1 className="text-blue-500 uppercase">Price</h1>
-                                <h1 className="text-5xl xs:text-3xl font-bold">45'000</h1>
+                                <h1 className="text-5xl xs:text-3xl font-bold">45.000</h1>
                             </div>
                             <div className="mx-8 my-8">
                                 <h1 className="text-blue-500 uppercase">Validity date</h1>
