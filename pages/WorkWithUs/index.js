@@ -2,6 +2,7 @@ import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar/dednav"
 import Head from 'next/head'
 import Team from "../../components/Team"
+import WorkWithUs1 from "../../components/WorkWithUs1"
 export default function WorkWithUs(){
     return(
         <div>
@@ -14,30 +15,10 @@ export default function WorkWithUs(){
             <Navbar/>
             <div className="bg-header bg-cover bg-center">
                 <div className="py-24 md:mx-40 grid justify-center ">
-                    <h1 className="text-xl text-black font-bold uppercase font-Gothic">Home / work with us</h1>
-                    <h1 className="md:text-7xl text-blue-900  font-ExtraBold ">Work With Us</h1>
+                    <h1 className="xs:text-5xl md:text-7xl text-blue-900  font-ExtraBold ">Work With Us</h1>
                 </div>
             </div>
-            <div className="mx-20">
-                <div className="flex flex-wrap">
-                    <div className=" mt-16 md:w-1/2 xs:w-full">
-                        <p>Maximus Distribution LLC is established to deliver the highest quality food products to Mongolian consumers.
-                        Currently we have around 140 staff and reaching a sales turnover of over $20 million USD per year, Maximus Distribution LLC has become a leader in the field.
-                        As a company, Maximus Distribution LLC continues to work at discovering the highest quality products with
-                         the mission of building premium brands to Mongolian consumers at excellent prices.
-                         Currently we have around 140 staff and reaching a sales turnover of over $20 million USD per year, Maximus Distribution LLC has become a leader in the field.
-                        As a company, Maximus Distribution LLC continues to work at discovering the highest quality products with
-                         the mission of building premium brands to Mongolian consumers at excellent prices. 
-                         As a company, Maximus Distribution LLC continues to work at discovering the highest quality products with
-                         the mission of building premium brands to Mongolian consumers at excellent prices. 
-                        </p>
-                    </div>
-                    <div className="mx-20">
-                        <img className="w-96" src="/logo.png"/>
-                    </div>
-                </div>
-            </div>
-            <Team/>
+            <WorkWithUs1/>
             <Footer/>
         </div>
     )

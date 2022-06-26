@@ -3,7 +3,7 @@ import Footer from "../Footer";
 export default function WhatWe(){
     return(
         <div className="">
-             <div className="mx-20 my-20 ">
+             <div className="xs:mx-2 xs:my-8 md:mx-20 md:my-20 ">
               <div className="flex flex-wrap justify-center">
                 <div className="mx-10">
                     <div className="flex justify-center">

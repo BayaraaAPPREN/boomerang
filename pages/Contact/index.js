@@ -13,18 +13,15 @@ export default function Contact(){
             <Navbar/>
             <div className="bg-header bg-cover bg-center">
                 <div className="py-24  md:mx-40 grid justify-center ">
-                    <h1 className="text-xl text-black font-bold uppercase font-Gothic">Home / Contact</h1>
-                    <h1 className=" md:text-7xl text-blue-900  font-ExtraBold ">Contact Us</h1>
+                    <h1 className="xs:text-5xl md:text-7xl text-blue-900  font-ExtraBold ">Contact Us</h1>
                 </div>
             </div>
             <div className="flex justify-center flex-wrap py-20">
                 <div className="">
-                    <div className="mt-8 mx-8 mb-16">
+                    <div className="mt-8 mx-8 xs:mb-4 md:mb-16">
                         <h1 className="mb-4 text-lg"> {"<<<"} CONTACT US  {"  >>>"}</h1>
                         <div className="text-5xl font-medium tracking-tightest leading-none text-blue-800">
-                            <h1>Feel free to get in </h1>
-                            <h1>touch with </h1>
-                            <h1>experts</h1>
+                            <h1 className="md:w-80">Feel free to get in touch with experts</h1>
                         </div>
                         <div className="flex items-center mt-6 ">
                             <div>
@@ -36,21 +33,18 @@ export default function Contact(){
                             </div>
                         </div>
                         <div className="text-lg text-slate-600 font-medium mt-8">
-                            <h1>1-504, Gegeenten complex, 15th
-                                subdistrict, </h1>
-                            <h1>Khan-Uul district,
-                                Ulaanbaatar, Mongolia</h1>
+                            <h1 className="md:w-80">1-504, Gegeenten complex, 15th Khan-Uul district,Ulaanbaatar, Mongolia subdistrict, </h1>
                         </div>
                     </div>
                 </div>
                 <div className="mt-10 mx-10">
                     <div className="flex">
-                        <input className="mr-6 bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Your name"/>
-                        <input className="bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Email address"/>
+                        <input className="mr-6 bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Your name"/>
+                        <input className="bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Email address"/>
                     </div>
                     <div className="flex my-4">
-                        <input className="mr-6 bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Phone number"/>
-                        <input className="bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Subject"/>
+                        <input className="mr-6 bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Phone number"/>
+                        <input className="bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Subject"/>
                     </div>
                     <div>
                        <textarea className="mr-6 bg-gray-200 pt-4 pb-20 appearance-none border-2 border-gray-200 rounded w-full px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Write a message"/>
