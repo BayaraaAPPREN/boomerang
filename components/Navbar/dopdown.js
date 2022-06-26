@@ -37,7 +37,7 @@ const Dopdown = () => {
           " text-base z-50 float-left py-2 list-none text-left rounded min-w-48"
         }
       >
-       <div className=" text-blue-900 bg-white px-8 py-4 rounded-lg mt-2 relative xs:z-40">
+       <div className=" text-blue-900 bg-white px-6 py-4 rounded-lg mt-2 relative xs:z-40">
         <Link href="/WhoWeAre">
             <h1 className="mx-2 cursor-pointer hover:bg-slate-100 rounded-sm ">Who we are </h1>
         </Link> 
