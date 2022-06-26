@@ -37,8 +37,7 @@ export default function Footer(){
                                 </div> */}
                                 <div className="mt-4 mx-8">
                                     <h1 className=" uppercase font-bold font-mono">contact us</h1>
-                                    <h2>Location : 1-504, Gegeenten complex, 15th subdistrict,</h2>
-                                    <h2>Khan-Uul district, Ulaanbaatar, Mongolia</h2>
+                                    <h2 className="w-80">Location : 1-504, Gegeenten complex, 15th subdistrict, Khan-Uul district, Ulaanbaatar, Mongolia</h2>
                                     <h2>Phone number : (+976) 77307733</h2>
                                     <h2>Email : info@boomerang.mn</h2>
                                 </div>

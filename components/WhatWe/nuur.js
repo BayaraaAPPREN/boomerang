@@ -2,7 +2,7 @@
 
 export default function Nuur(){
     return(
-        <div className="xs:mt-56 lg:mt-60 md:mt-60 xl:mt-80 sm:mt-40 2xl:mt-80">
+        <div className="xs:mt-56 lg:mt-60 md:mt-40 xl:mt-80 sm-10 2xl:mt-80">
              <div className=" xs:mx-6 md:mx-20 xs:my-4 md:my-20 ">
                 <div className="flex justify-center xs:mb-8 md:my-16">
                     <h1 className="text-3xl text-center">Boomerang trade LLC at a glance</h1>

@@ -10,7 +10,7 @@ export default function Navbar(){
             <div className="flex justify-center items-center text-Gothic z-40 relative text-slate-100 ">
                 <Link href="/">
                 <div className="ml-4 cursor-pointer">
-                    <img className="xs:h-40 md:h-60" src="/logowhite.png"/>
+                    <img className="xs:h-40 md:w-40" src="/logowhite.png"/>
                 </div>
 				</Link>
 					<Mobile/>
