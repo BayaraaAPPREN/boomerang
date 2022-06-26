@@ -3,7 +3,7 @@ import Link from "next/link";
 import { createPopper } from "@popperjs/core";
 import { useState } from "react";
 
-const dopdown = () => {
+const Dopdown = () => {
   // dropdown props
   const [dropdownPopoverShow, setDropdownPopoverShow] = useState(false);
   const btnDropdownRef = React.createRef();
@@ -59,4 +59,4 @@ const dopdown = () => {
   );
 };
 
-export default dopdown;
+export default Dopdown;
