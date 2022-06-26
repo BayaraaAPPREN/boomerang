@@ -1,6 +1,5 @@
 import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar/dednav"
-import Team from "../../components/Team"
 import Head from 'next/head'
 export default function Products(){
     return(
@@ -28,7 +27,7 @@ export default function Products(){
                                 <img className="h-10" src="/star.png"/>
                                 <img className="h-10" src="/star.png"/>
                             </div>
-                            <h1 className="flex justify-center mt-2 xs:lg md:text-2xl">49.999₮</h1>
+                            <h1 className="flex justify-center mt-2 xs:lg md:text-2xl">49.999</h1>
                         </div>
                     </div>
                     <div className="mx-4">
@@ -40,7 +39,7 @@ export default function Products(){
                                 <img className="h-10" src="/star.png"/>
                                 <img className="h-10" src="/star.png"/>
                             </div>
-                            <h1 className="flex justify-center mt-2 xs:lg md:text-2xl">49.999₮</h1>
+                            <h1 className="flex justify-center mt-2 xs:lg md:text-2xl">49.999</h1>
                         </div>
                     </div>
                     <div className="mx-4">
@@ -52,7 +51,7 @@ export default function Products(){
                                 <img className="h-10" src="/star.png"/>
                                 <img className="h-10" src="/star.png"/>
                             </div>
-                            <h1 className="flex justify-center mt-2 xs:lg md:text-2xl">49.999₮</h1>
+                            <h1 className="flex justify-center mt-2 xs:lg md:text-2xl">49.999</h1>
                         </div>
                     </div>
                 </div>
