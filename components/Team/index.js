@@ -3,8 +3,8 @@
 export default function Team(){
     return(
         <div>
-            <div className="flex flex-wrap items-center mx-20">
-                <img src="/line1.png"/>
+            <div className="flex flex-wrap items-center xs:mx-4 lg:mx-20">
+                {/* <img src="/line1.png"/> */}
                 <h1 className="mx-8 text-4xl text-blue-900">OUR TEAM</h1>
             </div>
             <div className="flex justify-center flex-wrap my-16 mb-32">

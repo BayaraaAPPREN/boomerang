@@ -6,7 +6,7 @@ function Mobile() {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<div>
-			<nav className=" shadow-sm  w-full z-50">
+			<nav className=" w-full z-50 xs:visible hidden xs:block md:invisible">
 				<div className="w-full mt-4">
 					<div className="flex justify-end items-center ">
 						<div className="mr-10 flex md:hidden ">

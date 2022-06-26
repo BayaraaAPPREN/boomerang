@@ -20,7 +20,6 @@ export default function Home() {
         <Section/>
         <Video/>
         <WhatWe/>
-        <Team/>
         <Footer/>
        </div>
     </div>

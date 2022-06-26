@@ -2,8 +2,11 @@ import Footer from "../Footer";
 
 export default function Nuur(){
     return(
-        <div className="lg:mt-60 xl:mt-96 xs:mt-44">
+        <div className="xs:mt-56 lg:mt-96 md:mt-96 xl:mt-80 sm:mt-80 2xl:mt-80">
              <div className="mx-20 my-20 ">
+                <div className="flex justify-center my-16">
+                    <h1 className="text-3xl">Boomerang trade LLC at a glance</h1>
+                </div>
               <div className="flex flex-wrap justify-center">
                 <div className="mx-10">
                     <div className="flex justify-center">
@@ -39,65 +42,6 @@ export default function Nuur(){
                     <div className="text-center font-Gothic mt-4">
                         <h1>Financial ImpactFinancial Impact fff</h1>
                         <h1>Financial ImpactFinancial</h1>
-                    </div>
-                </div>
-              </div>
-              <div className="my-20 ">
-                <div className="flex flex-wrap justify-center">
-                    <div className="xs:mb-8 md:mx-10">
-                        <img className="" src="/image10.png"/>
-                    </div>
-                    <div className="mx-20">
-                        <div>
-                          <h1 className="uppercase text-sm text-blue-900">Financial Impact</h1>  
-                        </div>
-                        <div>
-                          <h1 className="text-4xl">New Trends In Social Media </h1>  
-                        </div>
-                        <div className="w-80 mt-8">
-                          <h1 className="">New Trends In Social Media
-                          New Trends In Social Media
-                          New Trends In Social Media
-                          New Trends In Social Media </h1>  
-                        </div>
-                    </div>
-                </div>
-                <div className="flex flex-wrap mt-10 justify-center">
-                    <div className="mx-32">
-                        <div>
-                          <h1 className="uppercase text-sm text-blue-900">Digital Strategy</h1>  
-                        </div>
-                        <div>
-                          <h1 className="text-4xl">Digital Strategy </h1>  
-                        </div>
-                        <div className="w-80 mt-8">
-                          <h1 className="">New Trends In Social Media
-                          New Trends In Social Media
-                          New Trends In Social Media
-                          New Trends In Social Media </h1>  
-                        </div>
-                    </div>
-                    <div className="xs:mb-2 xs:mt-4 md:mx-10">
-                        <img src="/image11.png"/>
-                    </div>
-                </div>
-                <div className="flex flex-wrap mt-10 justify-center">
-                    <div className="xs:mb-8 md:mx-10">
-                        <img className="" src="/image12.png"/>
-                    </div>
-                    <div className="mx-20">
-                        <div>
-                          <h1 className="uppercase text-sm text-blue-900">App Update & Rebranding</h1>  
-                        </div>
-                        <div>
-                          <h1 className="text-4xl">App Update & Rebranding </h1>  
-                        </div>
-                        <div className="w-80 mt-8">
-                          <h1 className="">New Trends In Social Media
-                          New Trends In Social Media
-                          New Trends In Social Media
-                          New Trends In Social Media </h1>  
-                        </div>
                     </div>
                 </div>
               </div>
