@@ -15,27 +15,27 @@ export default function Navbar(){
 				</Link>
 					<Mobile/>
                 <Link href="/WhoWeAre">
-                <div className="lg:invisible hidden xl:block xl:visible mx-2 cursor-pointer rounded-lg hover:text-black hover:bg-slate-100 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
+                <div className="xs:invisible hidden md:block md:visible mx-2 cursor-pointer rounded-lg hover:text-black hover:bg-slate-100 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
                     <h1>Who we are</h1>
                 </div>
                 </Link>
                 <Link href="/WhatWeDo">
-                <div className="lg:invisible hidden xl:block xl:visible mx-2 cursor-pointer rounded-lg hover:text-black hover:bg-slate-100 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
+                <div className="xs:invisible hidden md:block md:visible mx-2 cursor-pointer rounded-lg hover:text-black hover:bg-slate-100 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
                     <h1>What we do</h1>
                 </div>
                 </Link>
                 <Link href="/Products">
-                <div className=" mx-2 lg:invisible hidden xl:block xl:visible cursor-pointer rounded-lg hover:text-black hover:bg-slate-100 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
+                <div className=" mx-2 xs:invisible hidden md:block md:visible cursor-pointer rounded-lg hover:text-black hover:bg-slate-100 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
                     <h1>Products</h1>
                 </div>
                 </Link>
                 <Link href="/WorkWithUs">
-                <div className="mx-2 lg:invisible hidden xl:block xl:visible cursor-pointer rounded-lg hover:text-black hover:bg-slate-100 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
+                <div className="mx-2 xs:invisible hidden md:block md:visible cursor-pointer rounded-lg hover:text-black hover:bg-slate-100 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
                     <h1>Work with us</h1>
                 </div>
                 </Link>
                 <Link href="/Contact">
-                    <div className="mx-2 lg:invisible hidden xl:block xl:visible cursor-pointer rounded-lg hover:text-black hover:bg-slate-100 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
+                    <div className="mx-2 xs:invisible hidden md:block md:visible cursor-pointer rounded-lg hover:text-black hover:bg-slate-100 hover:rounded-lg hover:py-2 hover:px-6 transition delay-75 px-6 py-2">
                         <h1>Contact us</h1>
                     </div>
                 </Link>

@@ -18,9 +18,9 @@ const Dopdown = () => {
     setDropdownPopoverShow(false);
   };
   return (
-    <div className="xs:visible hidden xs:block xl:invisible">
+    <div className="xs:visible md:hidden xs:block md:invisible">
       <a
-        className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold "
+        className=" "
         href="#pablo"
         ref={btnDropdownRef}
         onClick={(e) => {
@@ -28,7 +28,7 @@ const Dopdown = () => {
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-        <img className="ml-24" src="/whitemenuu.png"/>
+        <img className="xs:ml-24" src="/whitemenuu.png"/>
       </a>
       <div
         ref={popoverDropdownRef}
