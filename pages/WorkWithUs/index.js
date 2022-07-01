@@ -1,7 +1,7 @@
 import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar/dednav"
 import Head from 'next/head'
-// import WorkWithUs1 from "../../components/WorkWithUs1/index"
+import WorkWithUs1 from "../../components/WorkWithUs1/index"
 export default function WorkWithUs(){
     return(
         <div>
@@ -17,7 +17,7 @@ export default function WorkWithUs(){
                     <h1 className="xs:text-5xl md:text-7xl text-blue-900  font-ExtraBold ">Work With Us</h1>
                 </div>
             </div>
-            {/* <WorkWithUs1/> */}
+            <WorkWithUs1/>
             <Footer/>
         </div>
     )

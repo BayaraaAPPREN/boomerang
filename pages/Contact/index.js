@@ -1,10 +1,17 @@
 import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar/dednav"
 import Head from "next/head"
+import { useState } from "react";
 export default function Contact(){
+const [user, setUserData] = useState({ name:"", email:"", message:""})
+
+   async function handleOnSubmit(e){
+       e.preventDefault();
+       console.log(user)
+    }
     return(
         <div>
-            <Head>
+      <Head>
         <title>Boomerang</title>
         <meta name="boomerang.mn" ccontent="initial-scale=1.0, width=device-width" />
         <meta property='og:title' content='Boomerang.mn'/>
@@ -38,22 +45,33 @@ export default function Contact(){
                     </div>
                 </div>
                 <div className="mt-10 mx-10">
-                    <div className="flex">
+                    <form method="post" onSubmit={handleOnSubmit}>
+                    {/* <div className="flex">
                         <input className="mr-6 bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Your name"/>
-                        <input className="bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Email address"/>
-                    </div>
+                        <input className="bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="email" placeholder="Email address"/>
+                    </div> */}
                     <div className="flex my-4">
-                        <input className="mr-6 bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Phone number"/>
-                        <input className="bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Subject"/>
+                        <input className="mr-6 bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                        value={user.name}
+                        onChange={e => setUserData({...user, name:e.target.value})}
+                        type="text" name="name" placeholder="Name"/>
+                        <input className="bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" 
+                        value={user.email}
+                        onChange={e => setUserData({...user, email:e.target.value})}
+                        type="email" name="email" placeholder="Email"/>
                     </div>
                     <div>
-                       <textarea className="mr-6 bg-gray-200 pt-4 pb-20 appearance-none border-2 border-gray-200 rounded w-full px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Write a message"/>
+                       <textarea className="mr-6 bg-gray-200 pt-4 pb-20 appearance-none border-2 border-gray-200 rounded w-full px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" 
+                       value={user.message}
+                       onChange={e => setUserData({...user, message:e.target.value})}
+                       type="text" name="message" placeholder="Write a message"/>
                     </div>
                     <div className="mt-4">
                         <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg">
                             Send a message
                         </button>
                     </div>
+                    </form>
                 </div>
             </div>
             <Footer/>
