@@ -3,7 +3,7 @@ export default function WorkWithUs1(){
         <div>
            <div className="grid justify-center mt-12">
                 <h1 className="text-2xl text-center">Lorem Ipsum</h1>
-                <p>Lorem Ipsum has been the industry's standard dummy</p>
+                <p>Lorem Ipsum has been the industry s standard dummy</p>
             </div>
         <div className="mt-4 mb-10 flex justify-center items-center flex-wrap">
             <div className="w-80 rounded-xl m-8 shadow-2xl cursor-pointer">
