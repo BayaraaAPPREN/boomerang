@@ -11,7 +11,7 @@ export default function WorkWithUs1(){
                 <div className="px-8 py-8 group-hover:bg-slate-50 group-hover:rounded-xl border-t-8 border-blue-500 rounded-xl transition delay-75">
                 <div className="">
                     <h1 className="font-bold text-slate-900 group-hover:text-black text-center">Press</h1>
-                    <p className=" mt-4 text-slate-600">Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                    <p className=" mt-4 text-slate-600">Letraset sheets containing Lorem Ipsum passages and more recently with 
                         desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
                         <div className="border-2 border-blue-500 group-hover:border-white rounded-full mt-8 py-2 mx-10 my-10 group-hover:bg-blue-500 transition delay-75 ">
@@ -26,7 +26,7 @@ export default function WorkWithUs1(){
                 <div className="px-8 py-8 group-hover:bg-slate-50 group-hover:rounded-xl border-t-8 border-blue-500 rounded-xl transition delay-75">
                 <div className="py-6">
                     <h1 className="font-bold text-slate-900 group-hover:text-black text-center">Press</h1>
-                    <p className=" mt-4 text-slate-600">Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                    <p className=" mt-4 text-slate-600">Letraset sheets containing Lorem Ipsum passages and more recently with 
                         desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
                         <div className="border-2 border-blue-500 group-hover:border-white rounded-full mt-8 py-2 mx-10 my-10 group-hover:bg-blue-500 transition delay-75 ">
@@ -41,7 +41,7 @@ export default function WorkWithUs1(){
                 <div className="px-8 py-8 group-hover:bg-slate-50 group-hover:rounded-xl border-t-8 border-blue-500 rounded-xl transition delay-75">
                 <div className="">
                     <h1 className="font-bold text-slate-900 group-hover:text-black text-center">Press</h1>
-                    <p className=" mt-4 text-slate-600">Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                    <p className=" mt-4 text-slate-600">Letraset sheets containing Lorem Ipsum passages and more recently with 
                         desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
                         <div className="border-2 border-blue-500 group-hover:border-white rounded-full mt-8 py-2 mx-10 my-10 group-hover:bg-blue-500 transition delay-75 ">
