@@ -28,7 +28,6 @@ export default function Contact(){
                         </p>
                         </div>
                     </div>
-``
                     <div className="grid col-span-1">
                         <div className="flex justify-center">
                            <img className="xs:py-20 md:py-36 xs:px-10 md:px-20" src="/logoTrans1.png"/>
