@@ -6,7 +6,7 @@ export default function Footer(){
             <div className="flex flex-wrap justify-center py-20 bg-blue-900 text-slate-300">
                 <div className="">
                         <div className="flex flex-wrap">
-                            <img className="ml-4 h-40" src="/logowhite.png"/>
+                            <img className="ml-4 xs:h-20 md:h-20 lg:h-28  xl:h-40" src="/logowhite1.png"/>
                             <div>
                                <h1 className="mx-8 text-4xl">BOOMERANG</h1>
                                <div className="mt-4 flex">
@@ -26,15 +26,6 @@ export default function Footer(){
                                     <h2>Products</h2>
                                     <h2>Work with us</h2>
                                 </div>
-                                {/* <div className="mt-4 mx-8">
-                                    <h1 className=" uppercase font-bold font-mono">Үйлчилгээ</h1>
-                                    <h2>Ботокс</h2>
-                                    <h2>Филлер</h2>
-                                    <h2>Шивээс</h2>
-                                    <h2>Дархлаа дэмжих дусалууд</h2>
-                                    <h2>Арьс арчилгаа</h2>
-                                    <h2>Скин бүүстер</h2>
-                                </div> */}
                                 <div className="mt-4 mx-8">
                                     <h1 className=" uppercase font-bold font-mono">contact us</h1>
                                     <h2 className="w-80">Location : 1-504, Gegeenten complex, 15th subdistrict, Khan-Uul district, Ulaanbaatar, Mongolia</h2>
