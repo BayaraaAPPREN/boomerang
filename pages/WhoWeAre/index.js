@@ -5,7 +5,7 @@ import Team from "../../components/Team"
 export default function Contact(){
     return(
         <div>
-            <Head>
+      <Head>
         <title>Boomerang</title>
         <meta name="description" content="Boomerang.mn"/>
         <meta property='og:title' content='Boomerang.mn'/>
@@ -21,17 +21,17 @@ export default function Contact(){
                 <div className="grid xs:grid-cols-1 lg:grid-cols-2">
                     <div className="grid col-span-1">
                         <div className="xs:mx-2 xs:my-8 xl:mx-10 xl:my-10 flex items-center">
-                        <p>Maximus Distribution LLC is established to deliver the highest quality food products to Mongolian consumers.
-                        Currently we have around 140 staff and reaching a sales turnover of over $20 million USD per year, Maximus Distribution LLC has become a leader in the field.
-                        As a company, Maximus Distribution LLC continues to work at discovering the highest quality products with
-                         the mission of building premium brands to Mongolian consumers at excellent prices.
+                        <p>Boomerang trade LLC is a trade and service company established to deliver healthy, organic, high-quality products and services that meet international standards to Mongolian consumers at excellent prices. We strive to discover the world&apos;s best products to match the demands of the domestic market. 
+                            Our marketing strategy related to market access and brand recognition is unique and one of the main advantages of our company that maximizes our product sales. On behalf of the client company, we deal with all legal issues such as permits, customs and taxes related to the official sale in Mongolia on a contractual basis. 
+                            Boomerang trade LLC is run by a team of top professionals and experts specialized in management, marketing, law, investment, and international trade. We have taken great care to select team members who not only have the right technical skills, but who also are strong facilitators and communicators. We are working with our customers and partners to establish long-term cooperation aiming at quality and value. Customer satisfaction is the final destination of our efforts.
+
                         </p>
                         </div>
                     </div>
-
+``
                     <div className="grid col-span-1">
                         <div className="flex justify-center">
-                           <img className="w-96" src="/logo.png"/>
+                           <img className="xs:py-20 md:py-36 xs:px-10 md:px-20" src="/logoTrans1.png"/>
                         </div>
                     </div>
                 </div>

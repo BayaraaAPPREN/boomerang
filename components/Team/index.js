@@ -9,22 +9,22 @@ export default function Team(){
             </div>
             <div className="flex justify-center flex-wrap my-16 mb-32">
                 <div className="text-center mx-5">
-                    <img src="/img1.png"/>
+                    <img src="/tseej1.png"/>
                     <h1 className="text-xl mt-4">Gerelee. M</h1>
                     <h1 className="text-green-600 border-b-2 py-2 border-w-8">Founder, CEO</h1>
                 </div>
                 <div className="text-center mx-5">
-                    <img src="/img1.png"/>
+                    <img src="/tseej2.png"/>
                     <h1 className="text-xl mt-4">Gerelee. M</h1>
                     <h1 className="text-green-600 border-b-2 py-2 border-w-8">Founder, CEO</h1>
                 </div>
                 <div className="text-center mx-5">
-                    <img src="/img1.png"/>
+                    <img src="/tseej3.png"/>
                     <h1 className="text-xl mt-4">Gerelee. M</h1>
                     <h1 className="text-green-600 border-b-2 py-2 border-w-8">Founder, CEO</h1>
                 </div>
                 <div className="text-center mx-5">
-                    <img src="/img1.png"/>
+                    <img src="/tseej4.png"/>
                     <h1 className="text-xl mt-4">Gerelee. M</h1>
                     <h1 className="text-green-600 border-b-2 py-2 border-w-8">Founder, CEO</h1>
                 </div>

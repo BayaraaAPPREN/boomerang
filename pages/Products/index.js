@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar/dednav"
 import Head from 'next/head'
+import Tilt from 'react-vanilla-tilt'
 export default function Products(){
     return(
         <div>
@@ -17,68 +18,44 @@ export default function Products(){
                 </div>
             </div>
             <div className="my-20">
-                <div className="flex justify-center flex-wrap">
-                    <div className="mx-4">
+                <div className="grid justify-center flex-wrap">
+                    <div className="flex justify-center items-center flex-wrap">
+                        
+                        <div className="ml-8 xs:mx-4 md:w-1/2">
+                            <h1  className="text-blue-900 xs:text-xl md:text-5xl mb-4">Tomato products</h1>
+                            <p className="">This group of products is the one that we hold a significant market share nationwide. Traditional recipes and quality guarantee the rich taste and perfect color of our products. Purely natural tomatoes
+                                 processed in the best way to preserve all their nutrition, and fine-tuned selection of tastes satisfy any gourmand, cook and food lover.</p>
+                        </div>
                         <div>
-                            <img src="/image 14.png"/>
-                            <h1 className="flex justify-center mt-4 text-xl">Hydrating Serum</h1>
-                            <div className="flex justify-center mt-2">
-                                <img className="h-10" src="/star.png"/>
-                                <img className="h-10" src="/star.png"/>
-                                <img className="h-10" src="/star.png"/>
-                            </div>
-                            <h1 className="flex justify-center mt-2 xs:lg md:text-2xl">49.999</h1>
+                           <Tilt options={{ scale: 8, max: 25, speed: 600, }}>
+                            <img src="/product1.png"/>
+                            </Tilt>
                         </div>
                     </div>
-                    <div className="mx-4">
+                    <div className="flex justify-center items-center  flex-wrap">
+                        
+                        <div className="ml-8 xs:mx-4 md:w-1/2">
+                            <h1  className="text-blue-900 xs:text-xl md:text-5xl mb-4">Vegetable oils</h1>
+                            <p className="">Sunflower and corn vegetable oils play an important role in food preparation. We offer a wide range of
+                             package sizes with unaltered characteristics – taste, odor and nutrition values. Regular award winners of various exhibitions.</p>
+                        </div>
                         <div>
-                            <img src="/image 14.png"/>
-                            <h1 className="flex justify-center mt-4 text-xl">Hydrating Serum</h1>
-                            <div className="flex justify-center mt-2">
-                                <img className="h-10" src="/star.png"/>
-                                <img className="h-10" src="/star.png"/>
-                                <img className="h-10" src="/star.png"/>
-                            </div>
-                            <h1 className="flex justify-center mt-2 xs:lg md:text-2xl">49.999</h1>
+                           <Tilt options={{ scale: 8, max: 25, speed: 600, }}>
+                            <img src="/product2.png"/>
+                            </Tilt>
                         </div>
                     </div>
-                    <div className="mx-4">
-                        <div>
-                            <img src="/image 14.png"/>
-                            <h1 className="flex justify-center mt-4 text-xl">Hydrating Serum</h1>
-                            <div className="flex justify-center mt-2">
-                                <img className="h-10" src="/star.png"/>
-                                <img className="h-10" src="/star.png"/>
-                                <img className="h-10" src="/star.png"/>
-                            </div>
-                            <h1 className="flex justify-center mt-2 xs:lg md:text-2xl">49.999</h1>
+                    <div className="flex justify-center items-center  flex-wrap">
+                        
+                        <div className="ml-8 xs:mx-4 md:w-1/2">
+                            <h1  className="text-blue-900 xs:text-xl md:text-5xl mb-4">Grocery products</h1>
+                            <p className="">We offer a range of packaged grocery products. They are first carefully selected and tested for perfect quality, then packaged in a way
+                            that provides long shelf life in ambient conditions while maintaining their taste and nutritional value.</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div className="grid xs:grid-cols-1 md:grid-cols-2 mb-20">
-                <div className="grid col-span-1">
-                    <div className="grid justify-center xs:mx-8">
-                        <img src="/image 17.png"/>
-                    </div>
-                </div>
-                <div className="grid col-span-1">
-                    <div className="">
-                        <h1 className="text-5xl text-blue-900 xs:mx-8 mb-8">Hydrating Serum</h1>
-                        <p className="md:w-96 xs:mx-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s
-                             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It 
-                             has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 
-                             1960s with the release of Letraset sheets
-                             containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <div className="flex">
-                            <div className="mx-8 my-8">
-                                <h1 className="text-blue-500 uppercase">Price</h1>
-                                <h1 className="text-5xl xs:text-3xl font-bold">45.000</h1>
-                            </div>
-                            <div className="mx-8 my-8">
-                                <h1 className="text-blue-500 uppercase">Validity date</h1>
-                                <h1 className="text-5xl xs:text-3xl font-bold">1 year</h1>
-                            </div>  
+                        <div>
+                           <Tilt options={{ scale: 8, max: 25, speed: 600, }}>
+                            <img src="/product3.png"/>
+                            </Tilt>
                         </div>
                     </div>
                 </div>
