@@ -49,7 +49,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'back': "url('/back.png')",
-        'header': "url('/header1.png')",
+        'header': "url('/background1.png')",
         'home': "url('/home.png')",
         'video': "url('/boomerang.mp4')"
       }

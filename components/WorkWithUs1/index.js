@@ -4,7 +4,7 @@ export default function WorkWithUs1(){
     return(
         <div>
            <div className="grid justify-center mt-12">
-                <h1 className="text-2xl xs:ml-4 md:ml-40 mb-8">Why us</h1>
+                <h1 className="text-2xl xs:ml-4 md:ml-40 mb-8">Why Boomerang Trade LLC?</h1>
                 <p className='xs:mx-4 sm:mx-20 md:mx-40'>We offer you a long-term and win-win cooperation. We handle all of the issues related to entering the Mongolian market officially, from the beginning to the end, regarding all of the laws, regulations and international treaties. Our team of professionals work to create loyal customers by intensely focusing on the value and reputation of the brand. Our branding technique makes us unique and irreplaceable. Our new projects and strategic decisions are based on market research and customer needs.
                      Our clients thoroughly enjoy our complete and qualified services related to accessing the Mongolian market. We invite you to become our partner.</p>
             </div>

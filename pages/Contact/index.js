@@ -20,7 +20,7 @@ const [user, setUserData] = useState({ name:"", email:"", message:""})
             <Navbar/>
             <div className="bg-header bg-cover bg-center">
                 <div className="py-24  md:mx-40 grid justify-center ">
-                    <h1 className="xs:text-5xl md:text-7xl text-blue-900  font-ExtraBold ">Contact Us</h1>
+                    <h1 className="xs:text-5xl md:text-7xl text-white  font-ExtraBold ">Contact Us</h1>
                 </div>
             </div>
             <div className="flex justify-center flex-wrap py-20">

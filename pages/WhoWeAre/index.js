@@ -14,7 +14,7 @@ export default function Contact(){
             <Navbar/>
             <div className="bg-header bg-cover bg-center">
                 <div className="py-24  md:mx-40 grid justify-center ">
-                    <h1 className="xs:text-5xl xl:text-7xl text-blue-900  font-ExtraBold ">Who We Are</h1>
+                    <h1 className="xs:text-5xl xl:text-7xl text-white  font-ExtraBold ">Who We Are</h1>
                 </div>
             </div>
             <div className="xs:mx-4 lg:mx-20">

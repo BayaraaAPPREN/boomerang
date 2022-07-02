@@ -8,7 +8,7 @@ export default function Nuur(){
               <div className="flex flex-wrap justify-center">
                 <div className="mx-10">
                     <div className="flex justify-center">
-                        <img src="/finan.png"/>
+                        <img className="h-28" src="/Marketing.png"/>
                     </div>
                     <div className="text-center text-xl mt-2">
                         <h1>Marketing consulting</h1>
@@ -19,7 +19,7 @@ export default function Nuur(){
                 </div>
                 <div className="mx-10">
                     <div className="flex justify-center">
-                        <img className="" src="/finan1.png"/>
+                        <img className="h-28" src="/trade1.png"/>
                     </div>
                     <div className="text-center text-xl mt-2">
                         <h1>Importing business</h1>
@@ -30,7 +30,7 @@ export default function Nuur(){
                 </div>
                 <div className="mx-10">
                     <div className="flex justify-center">
-                        <img src="/finan2.png"/>
+                        <img className="h-28" src="/law1.png"/>
                     </div>
                     <div className="text-center text-xl mt-2">
                         <h1>Legal services</h1>
