@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@headlessui/react": "^1.6.5",
     "@material-tailwind/react": "^1.0.4",
     "@popperjs/core": "^2.11.5",

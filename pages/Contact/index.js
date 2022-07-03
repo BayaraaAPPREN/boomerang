@@ -1,14 +1,32 @@
 import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar/dednav"
 import Head from "next/head"
-import { useState } from "react";
-export default function Contact(){
-const [user, setUserData] = useState({ name:"", email:"", message:""})
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-   async function handleOnSubmit(e){
-       e.preventDefault();
-       console.log(user)
-    }
+export default function Contact(){
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm(
+          "service_iwl1kt5",
+          "template_vc17t9g",
+          form.current,
+          "Yc0z3LRVwaC1loEZu"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            console.log("message sent");
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    };
     return(
         <div>
       <Head>
@@ -45,25 +63,19 @@ const [user, setUserData] = useState({ name:"", email:"", message:""})
                     </div>
                 </div>
                 <div className="mt-10 mx-10">
-                    <form method="post" onSubmit={handleOnSubmit}>
+                    <form ref={form}  onSubmit={sendEmail}>
                     {/* <div className="flex">
                         <input className="mr-6 bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="text" placeholder="Your name"/>
                         <input className="bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" type="email" placeholder="Email address"/>
                     </div> */}
                     <div className="flex my-4">
                         <input className="mr-6 bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                        value={user.name}
-                        onChange={e => setUserData({...user, name:e.target.value})}
-                        type="text" name="name" placeholder="Name"/>
+                        type="text" name="user_name" placeholder="Name"/>
                         <input className="bg-gray-200 py-4 appearance-none border-2 border-gray-200 rounded w-full xs:px-2 md:px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" 
-                        value={user.email}
-                        onChange={e => setUserData({...user, email:e.target.value})}
-                        type="email" name="email" placeholder="Email"/>
+                        type="email" name="user_email" placeholder="Email"/>
                     </div>
                     <div>
                        <textarea className="mr-6 bg-gray-200 pt-4 pb-20 appearance-none border-2 border-gray-200 rounded w-full px-16 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" 
-                       value={user.message}
-                       onChange={e => setUserData({...user, message:e.target.value})}
                        type="text" name="message" placeholder="Write a message"/>
                     </div>
                     <div className="mt-4">
