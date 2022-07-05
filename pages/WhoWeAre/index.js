@@ -11,16 +11,13 @@ export default function Contact(){
     //     setLoading(true)
     //     setTimeout(()=>{
     //         setLoading(false) 
-    //     },500)
+    //     },5000)
     // },[])
 
     return(
         <div className="">
             <div className="">
-            {/* {   
-                loading?
-                <RingLoader className="" color={'#14BD99'} loading={loading} size={30} />
-                : */}
+           
             <div>
             <Head>
                 <title>Boomerang</title>
@@ -55,7 +52,7 @@ export default function Contact(){
             <Team/>
             <Footer/>
             </div>
-            // }
+             
             </div>
         </div>
     )
