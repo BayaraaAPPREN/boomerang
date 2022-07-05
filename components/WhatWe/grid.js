@@ -32,7 +32,7 @@ export default function Grid(){
             <div className="grid xs:grid-cols-1 md:grid-cols-2">
                 <div className="grid col-span-1 xs:invisible hidden md:block md:visible">
                     <div className="grid justify-end">
-                        <img className="p-10 rounded-lg" src="/1.jpg"/>
+                        <img className="md:mx-8 md:mt-8 rounded-lg" src="/1.png"/>
                     </div>
                 </div>
                 <div className="grid col-span-1">

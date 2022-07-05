@@ -2,15 +2,32 @@ import Footer from "../../components/Footer"
 import Navbar from "../../components/Navbar/dednav"
 import Head from 'next/head'
 import Team from "../../components/Team"
+// import { useState, useEffect } from "react"
+// import RingLoader from "react-spinners/RingLoader";
+
 export default function Contact(){
+    // const [loading, setLoading] = useState(false)
+    // useEffect(()=> {
+    //     setLoading(true)
+    //     setTimeout(()=>{
+    //         setLoading(false) 
+    //     },500)
+    // },[])
+
     return(
-        <div>
-      <Head>
-        <title>Boomerang</title>
-        <meta name="description" content="Boomerang.mn"/>
-        <meta property='og:title' content='Boomerang.mn'/>
-        <link rel="icon" href="/logo.png" />
-      </Head>
+        <div className="">
+            <div className="">
+            {/* {   
+                loading?
+                <RingLoader className="" color={'#14BD99'} loading={loading} size={30} />
+                : */}
+            <div>
+            <Head>
+                <title>Boomerang</title>
+                <meta name="description" content="Boomerang.mn"/>
+                <meta property='og:title' content='Boomerang.mn'/>
+                <link rel="icon" href="/logo.png" />
+            </Head>
             <Navbar/>
             <div className="bg-header bg-cover bg-center">
                 <div className="py-24  md:mx-40 grid justify-center ">
@@ -37,6 +54,9 @@ export default function Contact(){
             </div>
             <Team/>
             <Footer/>
+            </div>
+            // }
+            </div>
         </div>
     )
 }

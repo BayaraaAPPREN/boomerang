@@ -3,8 +3,11 @@ import Navbar from "../../components/Navbar/dednav"
 import Head from "next/head"
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contact(){
+    // const notify = () => toast("Амжилттай илгээлээ!");
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -22,6 +25,7 @@ export default function Contact(){
             console.log(result.text);
             console.log("message sent");
           },
+          toast("Амжилттай илгээлээ!"),
           (error) => {
             console.log(error.text);
           }
@@ -85,6 +89,9 @@ export default function Contact(){
                     </div>
                     </form>
                 </div>
+            </div>
+            <div>
+                <ToastContainer />
             </div>
             <Footer/>
         </div>

@@ -16,6 +16,8 @@
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-spinners": "^0.13.3",
+    "react-toastify": "^9.0.5",
     "react-vanilla-tilt": "^1.0.0",
     "vanilla-tilt": "^1.7.2"
   },
